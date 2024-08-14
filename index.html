@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circullar-Progress-Bar</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="skill">
+        <div class="outter">
+            <div class="inner">
+                <div id="number">
+                    65%
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="160px" height="160px">
+            <defs>
+                <linearGradient id="color">
+                    <stop offset="0%" stop-color="#0ae1e9"/>
+                    <stop offset="100%" stop-color="#6c91a5"/>
+                </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" fill="red" stroke="url(#color)" stroke-width="20" stroke-linecap="round"></circle>
+        </svg>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
